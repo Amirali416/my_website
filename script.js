@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const translationPopup = document.getElementById('translation-popup');
 
     const model = 'gemini-2.5-flash-lite';
-    const workerBaseUrl = 'https://your-worker-name.your-subdomain.workers.dev'; // <-- IMPORTANT: REPLACE WITH YOUR WORKER URL
+    const workerBaseUrl = 'https://gemini-proxy.bazrgaramirali.workers.dev'; // <-- IMPORTANT: REPLACE WITH YOUR WORKER URL
 
     const words = "apple banana orange grape strawberry watermelon pineapple mango kiwi peach plum cherry blueberry raspberry blackberry cranberry".split(" ");
 
@@ -138,3 +138,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     populateBackground();
 });
+
